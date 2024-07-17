@@ -1,0 +1,10 @@
+
+
+.register-background{
+    background: url(../images/blog-04.jpg);
+    background-size: cover; /* Adjust as needed: cover, contain, or specific values */
+    background-position: center; /* Adjust as needed: center, top, bottom, left, right */
+    background-repeat: no-repeat; /* Adjust as needed: no-repeat, repeat, repeat-x, repeat-y */
+    padding: 20px; /* Adjust padding as needed */
+    color: #fff; /* Adjust text color for better readability over the background */
+}
