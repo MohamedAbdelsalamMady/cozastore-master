@@ -2,7 +2,7 @@
 //Protecting Code In all admin pages
 session_start();
 
-if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] != 'admin') {
+if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] != 'admin' ) {
     header("Location: index.php");
     exit();
 }
